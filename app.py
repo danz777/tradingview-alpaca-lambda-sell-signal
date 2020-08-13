@@ -3,8 +3,8 @@ from chalice import Chalice
 
 app = Chalice(app_name='sell')
 
-API_KEY = 'PK81FNC68XKM2JLETAFQ'
-SECRET_KEY = 'GGKwn0HPlhMOz88OXLlLgnYZPXnzDxBmVp31CWvb'
+API_KEY = 'add api key'
+SECRET_KEY = 'add secret key'
 BASE_URL = "https://paper-api.alpaca.markets"
 ACCOUNT_URL = "{}/v2/account".format(BASE_URL)
 ORDERS_URL = "{}/v2/orders".format(BASE_URL)
